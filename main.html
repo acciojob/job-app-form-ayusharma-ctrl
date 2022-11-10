@@ -8,23 +8,22 @@
 
 <body>
 	<div>
-	<form>
+	<form method="get">
 		<label for="name">Name: </label> <input id="name" placeholder="Name" required> <br><br>
 		<label for="email">Email: </label> <input type="email" id="email" placeholder="Email" required> <br><br>
-		<label for="Gender">Gender: </label> <input type="radio" name="Male">Male &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Female">Female <br><br>
+		<label for="gender">Gender: </label> <input type="radio" name="gender" value="male" required>Male <input type="radio" name="gender" value="female">Female <br><br>
 		<label for="laptop">Laptop Brands: </label>
 		<select id="laptop">
 			<option disabled selected>Select Laptop Brand</option>
 			<option>Apple</option>
 			<option>Asus</option>
 			<option>HP</option>
-			<option>Lenovo</option>
 		</select><br><br>
 		<label for="age">Age: </label> <input type="number" id="age" placeholder="Age" required> <br><br>
 		<label for="dob">DOB: </label> <input type="date" id="dob" required> <br><br>
 		<label for="password">Password: </label> <input type="password" id="password" placeholder="Password" required> <br><br>
 		<label for="portfolio">Website URL of your portfolio: </label> <input type="url" id="portfolio" placeholder="URL"> <br><br>
-		<button style="color:black; background-color:red;">Submit</button>
+		<button>Submit</button>
 	</form>
 	</div>
 
